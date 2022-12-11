@@ -1,0 +1,15 @@
+{
+  "name": "netflix-player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve ./public",
+    "generate": "./script.sh"
+  },
+  "author": "Thiago Resende",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.1.2"
+  }
+}
