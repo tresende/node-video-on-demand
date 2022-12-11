@@ -2,10 +2,10 @@
   Player Skin Designer for Video.js
   http://videojs.com
 
-  To customize the player skin edit 
-  the CSS below. Click "details" 
+  To customize the player skin edit
+  the CSS below. Click "details"
   below to add comments or questions.
-  This file uses some SCSS. Learn more  
+  This file uses some SCSS. Learn more
   at http://sass-lang.com/guide)
 
   This designer can be linked to at:
@@ -13,8 +13,10 @@
 */
 @font-face {
   font-family: nf-icon;
-  src: url(../fonts/nf-icon-v1-86.eot);
-  src: url(../fonts/nf-icon-v1-86.eot?#iefix) format("embedded-opentype"), url(../fonts/nf-icon-v1-86.woff) format("woff"), url(../fonts/nf-icon-v1-86.ttf) format("truetype");
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/nf-icon-v1-86.eot);
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/nf-icon-v1-86.eot?#iefix) format('embedded-opentype'),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/nf-icon-v1-86.woff) format('woff'),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/nf-icon-v1-86.ttf) format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -32,7 +34,7 @@
    of the button is the center, but there is trend towards moving it to a corner
    where it gets out of the way of valuable content in the poster image.*/
 .vjs-default-skin .vjs-big-play-button {
-  /* The font size is what makes the big play button...big. 
+  /* The font size is what makes the big play button...big.
      All width/height values use ems, which are a multiple of the font size.
      If the .video-js font-size is 10px, then 3em equals 30px.*/
   font-size: 4em;
@@ -63,7 +65,7 @@
 }
 
 .video-js .vjs-volume-menu-button .vjs-menu-content:before {
-  content: "";
+  content: '';
   display: inline-block;
   vertical-align: middle;
   height: 100%;
@@ -79,19 +81,19 @@
   font-family: nf-icon;
 }
 .video-js .vjs-control.vjs-play-control:before {
-  content: "\e646";
+  content: '\e646';
 }
 .video-js .vjs-control.vjs-play-control.vjs-playing:before {
-  content: "\e645";
+  content: '\e645';
 }
 .video-js .vjs-control.vjs-fullscreen-control:before {
-  content: "\e642";
+  content: '\e642';
 }
 .video-js .vjs-control.vjs-volume-menu-button:before {
-  content: "\e630";
+  content: '\e630';
 }
 .video-js .vjs-control.vjs-captions-button:before {
-  content: "\e650";
+  content: '\e650';
 }
 
 .video-js .vjs-control-bar,
@@ -160,7 +162,7 @@
 }
 .video-js .vjs-play-progress:before {
   transition: width 0.1s ease-out, height 0.1s ease-out;
-  content: "";
+  content: '';
   top: -0.2em;
   border: 0;
   background: radial-gradient(#b7090b 33%, #830607);
@@ -183,7 +185,8 @@
   padding: 0 4em 0 0.4em;
   top: -2.3em;
   border-radius: 1em;
-  transition: top 150ms linear, opacity 150ms linear, transform 150ms linear, -webkit-transform 150ms linear, -moz-transform 150ms linear, -o-transform 150ms linear;
+  transition: top 150ms linear, opacity 150ms linear, transform 150ms linear, -webkit-transform 150ms linear,
+    -moz-transform 150ms linear, -o-transform 150ms linear;
   z-index: 1;
   opacity: 0;
 }
@@ -196,7 +199,7 @@
 .video-js .vjs-progress-control .vjs-mouse-display:before {
   top: 100%;
   border: solid transparent;
-  content: " ";
+  content: ' ';
   height: 0;
   width: 0;
   position: absolute;
@@ -213,7 +216,7 @@
 .video-js .vjs-time-tooltip:before {
   top: 100%;
   border: solid transparent;
-  content: " ";
+  content: ' ';
   height: 0;
   width: 0;
   position: absolute;
@@ -260,7 +263,8 @@
   animation: vjs-spinner-fade-out 2s linear 1;
   animation-delay: 2s;
 }
-.vjs-loading-spinner:before, .vjs-loading-spinner:after {
+.vjs-loading-spinner:before,
+.vjs-loading-spinner:after {
   border: none;
 }
 .vjs-loading-spinner:after {
@@ -308,7 +312,6 @@
   }
 }
 
-
 #video-container {
   max-width: 640px;
   text-align: left;
@@ -333,7 +336,7 @@ body {
   background: #222;
   text-align: center;
   color: #aaa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background: radial-gradient(#333, hsl(200, 30%, 6%));
 }
 

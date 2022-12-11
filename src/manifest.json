@@ -1,0 +1,28 @@
+{
+  "hostTag": "$HOST",
+  "fileResolutionTag": "$RESOLUTION",
+  "localhost": "http://127.0.0.1:8080",
+  "productionHost": "http://127.0.0.1:8080",
+  "codec": "video/mp4; codecs=\"avc1.64001F,mp4a.40.2\"",
+  "intro": {
+    "url": "$HOST/timeline/01.intro/01.intro-4.001667-$RESOLUTION.mp4",
+    "at": 1,
+    "options": ["Manhã", "Tarde"],
+    "defaultOption": "Manhã"
+  },
+  "manha": {
+    "url": "$HOST/timeline/02.manha/02.manha-6.008333-$RESOLUTION.mp4",
+    "at": 3,
+    "options": ["Finalizar", "Tarde"],
+    "defaultOption": "Finalizar"
+  },
+  "tarde": {
+    "url": "$HOST/timeline/03.tarde/03.tarde-5.995000-$RESOLUTION.mp4",
+    "at": 3,
+    "options": ["Finalizar", "Manhã"],
+    "defaultOption": "Finalizar"
+  },
+  "fim": {
+    "url": "$HOST/timeline/04.fim/04.fim-5.183333-$RESOLUTION.mp4"
+  }
+}
